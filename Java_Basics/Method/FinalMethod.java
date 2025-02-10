@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.Method;
 
 public class FinalMethod {
     // This is a final method. It cannot be overridden by subclasses.

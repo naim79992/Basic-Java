@@ -1,4 +1,4 @@
-package Java_Basics;
+package Java_Basics.Method;
 
 abstract class Vehicle {
     abstract void startEngine();
