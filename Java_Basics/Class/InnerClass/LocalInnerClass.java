@@ -10,7 +10,7 @@ public class LocalInnerClass {
                 System.out.println("data is " + data+" "+b);
             }
         }
-        Local l = new Local();
+        Local l = new Local(); //obj must be created to access the method
         l.msg();
     }
 
