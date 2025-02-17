@@ -1,0 +1,6 @@
+An inner class without a name =Annonimous class
+Annonimous class is used to override the method of a class/interface without creating any subclass
+Annonimous class is used to declare and instantiate a class at the same time
+2 things happend behind the scene:
+1. Subclass(Annonimous class) is created, name decided by the compiler
+2. An object of the subclass is created and assign its reference to the superclass reference

@@ -1,0 +1,8 @@
+Nested Class
+1.Inner Class
+2. Member Inner Class
+3. Annoniumous Inner Class
+more:
+4. Static Inner Class
+5. Local Inner Class
+6. Nested Interface

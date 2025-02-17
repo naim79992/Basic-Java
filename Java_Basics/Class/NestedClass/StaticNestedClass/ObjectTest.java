@@ -1,4 +1,4 @@
-package Java_Basics.Class.InnerClass.StaticNestedClass;
+package Java_Basics.Class.NestedClass.StaticNestedClass;
 //Static nested class can access static members of outer class directly without creating object of outer class.
 class OuterClass {
     static int instanceVariable = 10; // Made static

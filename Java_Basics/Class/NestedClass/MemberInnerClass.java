@@ -1,4 +1,4 @@
-package Java_Basics.Class.InnerClass;
+package Java_Basics.Class.NestedClass;
 // Member inner class defined within another class, which can access the outer class's members, including private ones.
 public class MemberInnerClass {
     private int data = 30;

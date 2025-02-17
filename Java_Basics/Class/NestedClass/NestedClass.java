@@ -1,4 +1,4 @@
-package Java_Basics.Class.InnerClass;
+package Java_Basics.Class.NestedClass;
 
 public class NestedClass {
     class InnerClass {

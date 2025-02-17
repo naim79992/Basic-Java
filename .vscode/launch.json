@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnnonimousClass2",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.AnnonimousClass.AnnonimousClass2",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "InheritanceOfInnerClass",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.InnerClass.StaticNestedClass.InheritanceOfInnerClass",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ExtendedNested",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.InnerClass.StaticNestedClass.ExtendedNested",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "NestedInherit",
             "request": "launch",
             "mainClass": "Java_Basics.Class.InnerClass.NestedInherit",

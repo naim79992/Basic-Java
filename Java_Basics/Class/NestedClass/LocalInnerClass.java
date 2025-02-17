@@ -1,4 +1,4 @@
-package Java_Basics.Class.InnerClass;
+package Java_Basics.Class.NestedClass;
 // Local inner class inside block(loop/condition/method)
 public class LocalInnerClass {
     private int data = 30;

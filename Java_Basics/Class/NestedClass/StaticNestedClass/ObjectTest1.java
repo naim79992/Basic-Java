@@ -1,4 +1,4 @@
-package Java_Basics.Class.InnerClass.StaticNestedClass;
+package Java_Basics.Class.NestedClass.StaticNestedClass;
 
 public class ObjectTest1 {
     static class OuterClass {
