@@ -1,4 +1,3 @@
-package OOP;
 
 interface Vehicle1 {
     abstract void start();

@@ -1,4 +1,3 @@
-package OOP;
 class BankAccount {
     private double balance;  // Private variable (hidden data)
 

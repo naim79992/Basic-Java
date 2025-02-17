@@ -1,4 +1,3 @@
-package OOP;
 
 abstract class V {
     abstract void start();

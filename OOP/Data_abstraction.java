@@ -1,4 +1,4 @@
-package OOP;
+
 
 abstract class Vehicle {
     private String engineStatus = "Off"; // Hidden data (Encapsulation)

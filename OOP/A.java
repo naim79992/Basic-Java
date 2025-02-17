@@ -10,6 +10,6 @@ public class A {
 
     public static void main(String[] args) {
         A o1 = new A();A o2 = new A();
-        o1.display();
+        o1.display();o2.display();
     }
 }
