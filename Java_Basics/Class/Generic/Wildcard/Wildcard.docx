@@ -1,0 +1,8 @@
+What is wildcard?
+Wildcard is (?)- unknown type. relax rextrictions of unknown types.
+Unbounded Wildcard: List<?>
+Bounded Wildcard:
+- Upper Bounded Wildcards: List<? extends Number>
+- Lower Bounded Wildcards: List<? super Integer>
+
+

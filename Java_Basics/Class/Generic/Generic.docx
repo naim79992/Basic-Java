@@ -1,0 +1,49 @@
+When to Use Generic Classes in Java?
+✅ 1. Type Safety – Prevents incorrect data types and avoids ClassCastException.
+✅ 2. Code Reusability – One class works for multiple data types.
+✅ 3. Compile-Time Checking – Errors are caught during compilation.
+✅ 4. Collections Framework – Used in ArrayList<T>, HashMap<K, V>, etc.
+✅ 5. Custom Data Structures – Generic stacks, queues, trees handle various data types.
+Structure: 
+className<T> { // T is a type parameter(***)
+    T obj; // T is a type variable
+    void add(T obj) { this.obj = obj; }
+    T get() { return obj; }
+}
+------------
+
+Raw type in gneric class-> specifying its type parameters na korle raw type hoy, ete j kono type er data rakha jay
+Raw type use korle type safety thake na
+compiler error kono var e rakhte gele oi var er type specify korte hobe
+------------
+Bounded generics: restrict the types a generic class/method can accept.  
+
+1. Upper Bounded (`extends`) → Allows a class & its subclasses  
+
+class Box<T extends Number> {  // T must be Number or its subclass (Integer, Double, etc.)
+    T value;
+    Box(T value) { this.value = value; }
+}
+
+✔ Use `extends` when you need a **type & its subtypes**.  
+
+2. Lower Bounded (`super`) → Allows a class & its superclasses  
+
+void addNumbers(List<? super Integer> list) {  
+    list.add(10);  // ✅ Can add Integer
+}
+
+✔ Use `super` when adding elements **to ensure flexibility**.  
+3. Multiple Bounds (`extends Class & Interfaces`) 
+interface Printable { void print(); }
+
+class Data<T extends Number & Printable> { }  // ✅ Must be Number + implement Printable
+
+✔ Only one class + multiple interfaces are allowed. 
+
+Quick Summary for Interviews:  
+✔ **`extends` → Allows T & its subclasses**  
+✔ **`super` → Allows T & its superclasses**  
+✔ **One class + multiple interfaces are allowed**  
+
+💡 **Tip:** If asked in an interview, explain with a simple example! 🚀

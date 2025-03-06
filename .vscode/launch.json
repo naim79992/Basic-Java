@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.Wildcard.Main",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "BoundedGenerics",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.BoundedGenerics",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "BoundedGenericsExample",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.BoundedGenericsExample",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "RawPrintObj",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.rawTypeObject.RawPrintObj",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "RawPrintObj",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.RawPrintObj",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethod",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.GenericMethod",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "method",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.method",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "pair",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.pair",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "IntCalculator",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.IntCalculator",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "Prob",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.Prob",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "GenericClass",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.Generic.GenericClass",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "AnnonimousClass2",
             "request": "launch",
             "mainClass": "Java_Basics.Class.AnnonimousClass.AnnonimousClass2",
