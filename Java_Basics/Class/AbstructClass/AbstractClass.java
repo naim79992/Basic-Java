@@ -22,8 +22,4 @@ class Sub extends AbstractClass {
     public void displayMessage() {
         System.out.println("Hello from Sub!");
     }
-
-    public void display() {
-        System.out.println("Hello from Sub!");
-    }
 }

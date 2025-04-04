@@ -1,0 +1,46 @@
+### Cases Where **Reference Variable** is Created but **Object is Not Created**  
+
+1. **Abstract Class Reference**  
+   AbstractClass obj;  // Only reference, no object
+   OR
+   AbstractClass obj1 = new SUBCLASS(); 
+   AbstractClass obj1 = new AbstractClass();  // Compilation Error
+
+2. **Interface Reference**  
+   ```java
+   InterfaceName obj;  // Only reference, no object
+   ```
+
+3. **Assigning `null`**  
+   ```java
+   String str = null;  // Reference exists, but no object
+   ```
+
+4. **Declaring an Array Without Instantiation**  
+   ```java
+   int[] arr;  // Only reference, but no array object
+   ```
+
+5. **Method Returning a Reference but No Object Assigned**  
+   ```java
+   MyClass obj = getObject();  // If getObject() returns null, no object is created
+   ```
+
+6. **Static Reference Variable** (Before Object Creation)  
+   ```java
+   static MyClass obj;  // Reference exists, object not yet assigned
+   ```
+
+7. **Reference Variable Inside a Method Without Instantiation**  
+   ```java
+   void myMethod() {
+       MyClass obj;  // Local reference, but no object created
+   }
+   ```
+
+8. **Using a Subclass Reference for a Parent Class Without Instantiation**  
+   ```java
+   ParentClass obj;  // Reference exists, no object created
+   ```
+
+These are the common cases where **only a reference variable is created but no object exists in memory**. 🚀

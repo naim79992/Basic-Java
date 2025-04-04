@@ -57,10 +57,6 @@ public class Main {
         //lower bound(super)
         List<? super Car> vehicles1 = new ArrayList<>();
         vehicles1.add(new Car());
-
-
-
-
     }
 }
 // Output:

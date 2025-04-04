@@ -34,12 +34,15 @@ void addNumbers(List<? super Integer> list) {
 }
 
 ✔ Use `super` when adding elements **to ensure flexibility**.  
+
 3. Multiple Bounds (`extends Class & Interfaces`) 
 interface Printable { void print(); }
 
 class Data<T extends Number & Printable> { }  // ✅ Must be Number + implement Printable
 
 ✔ Only one class + multiple interfaces are allowed. 
+
+
 
 Quick Summary for Interviews:  
 ✔ **`extends` → Allows T & its subclasses**  

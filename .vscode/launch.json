@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrClsprac",
+            "request": "launch",
+            "mainClass": "ArrClsprac",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ArrClass",
+            "request": "launch",
+            "mainClass": "ArrClass",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ArrCls0",
+            "request": "launch",
+            "mainClass": "ArrCls0",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "Method",
+            "request": "launch",
+            "mainClass": "Java_Basics.Basics.Method",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCaseAndLoop",
+            "request": "launch",
+            "mainClass": "Java_Basics.Basics.SwitchCaseAndLoop",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "switchcase",
+            "request": "launch",
+            "mainClass": "Java_Basics.Basics.switchcase",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "iiVar",
+            "request": "launch",
+            "mainClass": "Java_Basics.Basics.iiVar",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "one",
+            "request": "launch",
+            "mainClass": "one",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "AnnonimousClass",
+            "request": "launch",
+            "mainClass": "Java_Basics.Class.AnnonimousClass.AnnonimousClass",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Java_Basics.Class.Generic.Wildcard.Main",

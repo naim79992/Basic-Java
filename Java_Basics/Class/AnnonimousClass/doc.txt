@@ -4,3 +4,30 @@ Annonimous class is used to declare and instantiate a class at the same time
 2 things happend behind the scene:
 1. Subclass(Annonimous class) is created, name decided by the compiler
 2. An object of the subclass is created and assign its reference to the superclass reference
+
+Key Points 🔥
+No class name → Defined inline.
+Used with interfaces, abstract classes, or parent classes.
+Good for short, one-time use objects.
+Cannot have constructors because they don’t have a name.
+🚀 Quick & efficient for small modifications!
+
+Syntax:
+```java 
+SuperClass obj = new SuperClass() {
+    // Overriding methods
+};
+------------------
+Normal class:
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("Woof Woof!");
+    }
+}
+--------------------
+Annonimous class:
+Animal obj = new Animal() {
+    void makeSound() {
+        System.out.println("Meow Meow!");
+    }
+};
