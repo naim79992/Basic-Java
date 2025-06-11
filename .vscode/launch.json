@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "str",
+            "request": "launch",
+            "mainClass": "str",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "ArrClsprac",
             "request": "launch",
             "mainClass": "ArrClsprac",
