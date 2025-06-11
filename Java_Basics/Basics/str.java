@@ -9,11 +9,11 @@ class str{
    //string buffer[thrate safe]
    StringBuffer s1=new StringBuffer(""); 
    System.out.println(s1.capacity() + " "+ s1.length()); //16+1=17
-   StringBuffer s1=new StringBuffer("Naim"); 
-   s1.append(" Hasan");
-   s1.deleteCharAt(2);
-   s1.insert(2,"Hi ");
-    String st=st.toString(); //convert StringBuffer to String
+   StringBuffer s11=new StringBuffer("Naim"); 
+   s11.append(" Hasan");
+   s11.deleteCharAt(2);
+   s11.insert(2,"Hi ");
+    String st = s11.toString(); //convert StringBuffer to String
     
     //same for StringBuilder[not thread safe]
 

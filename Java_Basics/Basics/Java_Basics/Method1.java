@@ -1,6 +1,6 @@
-package Java_Basics.Basics;
+package Java_Basics;
 
-public class Method {
+public class Method1 {
     public String get() {
         return "str";
     }
@@ -11,7 +11,7 @@ public class Method {
                  return "static-no obj required";
     }
     public static void main(String[] args) {
-        Method m = new Method();
+        Method1 m = new Method1();
         System.out.println(m.get()+"\n"+ m.get("str"));
         System.out.println(m.ok()+ " \n"+ ok());
     }
