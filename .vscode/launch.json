@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TryWithResources",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.TryWithResources",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "read",
+            "request": "launch",
+            "mainClass": "Java_Basics.IO.read",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "BufferedReadeR",
+            "request": "launch",
+            "mainClass": "Java_Basics.Lambda_Expression.BufferedReadeR",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "scan",
+            "request": "launch",
+            "mainClass": "Java_Basics.IO.scan",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionDucking",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.ExceptionDucking",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "CustomException",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.CustomException",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ThrowKeyword",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.ThrowKeyword",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHierarchy",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.ExceptionHierarchy",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandle",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.ExceptionHandle",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "NumberFormatDemo",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.NumberFormatDemo",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "CustomExceptionDemo",
+            "request": "launch",
+            "mainClass": "Java_Basics.Exception_Handeling.CustomExceptionDemo",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "e3",
             "request": "launch",
             "mainClass": "Java_Basics.Enum_.e3",

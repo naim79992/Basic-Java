@@ -1,5 +1,5 @@
 package Java_Basics.Enum_;
-
+//You cannot extend enums (like VehicleType1) — enums in Java are final.
 enum VehicleType1 {
     CAR(500000), BIKE(150000), TRUCK(1200000), BUS(800000);
     private final int price;  // instance variable
