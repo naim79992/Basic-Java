@@ -1,4 +1,4 @@
-package Enum;
+package Java_Basics.Enum_;
 
 enum VehicleType {
     CAR, BIKE, TRUCK, BUS

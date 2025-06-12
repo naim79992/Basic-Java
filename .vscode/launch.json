@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "e3",
+            "request": "launch",
+            "mainClass": "Java_Basics.Enum_.e3",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ee3",
+            "request": "launch",
+            "mainClass": "Java_Basics.Enum_.ee3",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "e4",
+            "request": "launch",
+            "mainClass": "Java_Basics.Enum_.e4",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "Static",
             "request": "launch",
             "mainClass": "Static",
