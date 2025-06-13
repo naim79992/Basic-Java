@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "byextend",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.byextend",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.Main",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "Java_Basics.Enum_.demo",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "TryWithResources",
             "request": "launch",
             "mainClass": "Java_Basics.Exception_Handeling.TryWithResources",

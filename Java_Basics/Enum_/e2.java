@@ -18,4 +18,3 @@ VehicleType[] vehicleArray = VehicleType.values();
         }
     }
 }
-

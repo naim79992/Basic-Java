@@ -3,7 +3,6 @@ package Java_Basics.Enum_;
 enum VehicleType1 {
     CAR(500000), BIKE(150000), TRUCK(1200000), BUS(800000);
     private final int price;  // instance variable
-
     // Constructor
     VehicleType1(int price) {  this.price = price; }
 
