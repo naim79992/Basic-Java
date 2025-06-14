@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sleep",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.Sleep",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPriority",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.ThreadPriority",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "MultipleThreads",
             "request": "launch",
             "mainClass": "Java_Basics.Threads.MultipleThreads",
