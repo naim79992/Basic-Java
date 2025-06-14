@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "syncronized_RaceConditions",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.syncronized_RaceConditions",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "Sleep",
             "request": "launch",
             "mainClass": "Java_Basics.Threads.Sleep",
