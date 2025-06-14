@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MultipleThreads",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.MultipleThreads",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "mainThread2",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.mainThread2",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "mainThread",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.mainThread",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "runnable",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.runnable",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "byextend",
             "request": "launch",
             "mainClass": "Java_Basics.Threads.byextend",
