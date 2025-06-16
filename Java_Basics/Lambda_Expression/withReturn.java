@@ -1,4 +1,5 @@
-//Lambda expression with return
+package Java_Basics.Lambda_Expression;
+
 @FunctionalInterface
 interface Calculator {
     int sum(int a, int b);  // দুইটা int parameter নিয়ে int return করে

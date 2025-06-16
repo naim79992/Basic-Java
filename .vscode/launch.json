@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "withReturn",
+            "request": "launch",
+            "mainClass": "Java_Basics.Lambda_Expression.withReturn",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "runnable2",
+            "request": "launch",
+            "mainClass": "Java_Basics.Threads.runnable2",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "syncronized_RaceConditions",
             "request": "launch",
             "mainClass": "Java_Basics.Threads.syncronized_RaceConditions",
