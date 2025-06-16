@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nLineLambda",
+            "request": "launch",
+            "mainClass": "Java_Basics.Lambda_Expression.nLineLambda",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "withReturn",
             "request": "launch",
             "mainClass": "Java_Basics.Lambda_Expression.withReturn",
