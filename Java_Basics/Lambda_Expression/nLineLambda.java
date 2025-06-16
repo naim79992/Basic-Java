@@ -2,7 +2,7 @@ package Java_Basics.Lambda_Expression;
 
 @FunctionalInterface
 interface Vehicle2 {
-    void run(int speed, int gear);  // দুইটা parameter
+    void run(int speed, int gear); 
 }
 
 public class nLineLambda {
@@ -18,3 +18,4 @@ public class nLineLambda {
         car.run(120, 5);
     }
 }
+
