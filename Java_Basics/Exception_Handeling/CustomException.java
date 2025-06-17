@@ -21,18 +21,18 @@ class Employee {
 
     public void setAge(int age) throws UnderageEmployeeException {
         if (age < 18) {
-            throw new UnderageEmployeeException("❌ Employee must be at least 18 years old.");
+            throw new UnderageEmployeeException("Employee must be at least 18 years old.");
         }
         this.age = age;
-        System.out.println("✔️ Age set to: " + age);
+        System.out.println("Age set to: " + age);
     }
 
     public void setSalary(double salary) {
         if (salary < 0) {
-            throw new InvalidSalaryException("❌ Salary can't be negative.");
+            throw new InvalidSalaryException("Salary can't be negative.");
         }
         this.salary = salary;
-        System.out.println("✔️ Salary set to: " + salary);
+        System.out.println("Salary set to: " + salary);
     }
 }
 
@@ -42,16 +42,16 @@ public class CustomException {
 
         //  Handling Custom Checked Exception
         try {
-            emp.setAge(16); // exception ছুঁড়বে
+            emp.setAge(16); // 'll be exception 
         } catch (UnderageEmployeeException e) {
-            System.out.println("🛑 Caught Custom Checked Exception: " + e.getMessage());
+            System.out.println("Caught Custom Checked Exception: " + e.getMessage());
         }
 
         //  Handling Custom Unchecked Exception
         try {
-            emp.setSalary(-5000); // exception ছুঁড়বে
+            emp.setSalary(-5000); // exception 
         } catch (InvalidSalaryException e) {
-            System.out.println("🛑 Caught Custom Runtime Exception: " + e.getMessage());
+            System.out.println("Caught Custom Runtime Exception: " + e.getMessage());
         }
 
         //  Success Case
@@ -59,7 +59,7 @@ public class CustomException {
             emp.setAge(25);
             emp.setSalary(60000);
         } catch (UnderageEmployeeException e) {
-            System.out.println("🛑 Age Exception: " + e.getMessage());
+            System.out.println("Age Exception: " + e.getMessage());
         }
     }
 }

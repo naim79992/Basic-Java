@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayList1",
+            "request": "launch",
+            "mainClass": "Java_Basics.Collection.ArrayList1",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList",
+            "request": "launch",
+            "mainClass": "Java_Basics.Collection.ArrayList",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "prac",
+            "request": "launch",
+            "mainClass": "Java_Basics.Constructors.prac",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "withReturn2",
             "request": "launch",
             "mainClass": "Java_Basics.Lambda_Expression.withReturn2",
