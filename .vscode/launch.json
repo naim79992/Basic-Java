@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Map2_hashTable",
+            "request": "launch",
+            "mainClass": "Java_Basics.Collection.Map2_hashTable",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
+            "name": "Map1",
+            "request": "launch",
+            "mainClass": "Java_Basics.Collection.Map1",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "Set1",
             "request": "launch",
             "mainClass": "Java_Basics.Collection.Set1",
