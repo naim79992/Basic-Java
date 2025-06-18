@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamExample",
+            "request": "launch",
+            "mainClass": "Java_Basics.Collection.StreamExample",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "Comparable2",
             "request": "launch",
             "mainClass": "Java_Basics.Collection.Comparable2",

@@ -28,7 +28,7 @@ public class Comparable2 {
         s.add(new Stu(211, "ea"));
         s.add(new Stu(1121, "adb"));
 
-        Comparator<Stu>com=new Comparator<Stu>(){
+        Comparator<Stu>com=new Comparator<Stu>(){ //annonimous inner class implementing Comparator<Stu> interface
             public int compare(Stu i,Stu j) {
         if(i.age>j.age){return 1;}
         else return -1;
