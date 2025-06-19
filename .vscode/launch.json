@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IoC_DI",
+            "request": "launch",
+            "mainClass": "Spring_SpringBoot.IoC_DI",
+            "projectName": "Java-Practice_8ca300f"
+        },
+        {
+            "type": "java",
             "name": "StreamExample",
             "request": "launch",
             "mainClass": "Java_Basics.Collection.StreamExample",
